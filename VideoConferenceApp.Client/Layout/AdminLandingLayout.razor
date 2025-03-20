@@ -1,0 +1,14 @@
+﻿@using Microsoft.FluentUI.AspNetCore.Components
+@using VideoConferenceApp.Client.Pages
+@using VideoConferenceApp.Client.Pages.Admin
+@inherits LayoutComponentBase
+
+<HeaderComponent />
+
+<div class="bg-info-subtle" style="height:90vh">
+	<FluentGrid Justify="JustifyContent.Center" class="p-5">
+		@Body
+	</FluentGrid>
+</div>
+
+<FooterComponent />
