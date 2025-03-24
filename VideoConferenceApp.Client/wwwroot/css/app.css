@@ -112,3 +112,20 @@ code {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
 }
+
+/* Custom CSS */
+.video-conference-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.video-conference-container video {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}

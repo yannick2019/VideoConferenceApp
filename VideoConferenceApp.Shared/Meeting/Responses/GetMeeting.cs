@@ -1,6 +1,6 @@
 ﻿namespace VideoConferenceApp.Shared.Meeting.Responses
 {
-    class GetMeeting
+    public class GetMeeting
     {
         public int Id { get; set; }
         public string MeetingId { get; set; } = string.Empty;

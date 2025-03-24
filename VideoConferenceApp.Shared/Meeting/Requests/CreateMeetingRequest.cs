@@ -1,6 +1,6 @@
 ﻿namespace VideoConferenceApp.Shared.Meeting.Requests
 {
-    class CreateMeetingRequest
+    public class CreateMeetingRequest
     {
         public string HostId { get; set; } = string.Empty;
         public string Title { get; set; } = string.Empty;

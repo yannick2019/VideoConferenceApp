@@ -1,4 +1,4 @@
 ﻿namespace VideoConferenceApp.Shared.Meeting.Responses
 {
-    internal record GetRecentMeetingsresponse : ServiceResponse<IEnumerable<GetMeeting>>;
+    public record GetRecentMeetingsResponse : ServiceResponse<IEnumerable<GetMeeting>>;
 }
