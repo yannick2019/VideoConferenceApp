@@ -1,4 +1,6 @@
-﻿using VideoConferenceApp.Shared.Authentication.Requests;
+﻿using System.Net.Http.Json;
+using VideoConferenceApp.Client.Extensions;
+using VideoConferenceApp.Shared.Authentication.Requests;
 using VideoConferenceApp.Shared.Authentication.Responses;
 
 namespace VideoConferenceApp.Client.Services
